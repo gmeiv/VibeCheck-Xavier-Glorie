@@ -34,10 +34,38 @@ const jokes = [
 ];
 
 const vibeMap = {
-  happy: { emoji: "😄", message: "Keep going - you're shipping greatness!" },
-  tired: { emoji: "🥱", message: "Hydrate. Stretch. Then commit." },
-  stressed: { emoji: "😵‍💫", message: "Breathe. One bug at a time." },
+  happy: { 
+    emoji: "😄", 
+    message: [
+      "Keep going - you're shipping greatness!",
+      "Smiles all around! Your vibes are infectious!",
+      "Celebrate small wins, they add up!",
+      "Your creativity is shining today!",
+      "Stay positive, good things are coming!"
+    ]
+  },
+  tired: { 
+    emoji: "🥱", 
+    message: [
+      "Hydrate. Stretch. Then commit.",
+      "Take a short break, you deserve it.",
+      "Nap time isn't weak, it's strategic.",
+      "Slow down and breathe, recharge your mind.",
+      "Remember: rest fuels productivity."
+    ]
+  },
+  stressed: { 
+    emoji: "😵‍💫", 
+    message: [
+      "Breathe. One bug at a time.",
+      "Step back, relax, then tackle it again.",
+      "Stress is temporary; focus on solutions.",
+      "You're stronger than you think, keep going.",
+      "Remember: progress > perfection."
+    ]
+  }
 };
+
 
 // Smash counter (stored in memory for now)
 let smashes = 0;
